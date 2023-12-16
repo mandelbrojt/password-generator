@@ -22,11 +22,11 @@ hr {
 .green-accent {
     color: #4ADF86;
 }
-#main-title {
+#heading {
     font-family: 'Karla', sans-serif;
     font-size: 40px;
 }
-#slogan {
+#supporting-text {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     color: #D5D4D8;
