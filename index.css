@@ -3,11 +3,21 @@ body {
     color: #FFFFFF;
     font-family: 'Karla', sans-serif;
 }
+hr {
+    width: 100%;
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid #2F3E53;
+}
 .password-card {
+    box-sizing: border-box;
     background: #1F2937;
     border-radius: 10px;
-    margin: 20px;
     padding: 20px;
+    margin: 20px;
+    /* Prevent margins from collapsing */
+    display: flex;
+    flex-direction: column;
 }
 .green-accent {
     color: #4ADF86;
@@ -20,4 +30,26 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     color: #D5D4D8;
+}
+#password-btn {
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 10px 15px;
+}
+#password-btn:hover {
+    border: 2px solid #D5D4D8;
+    cursor: pointer;
+}
+#password-btn:active {
+    color: #FFFFFF;
+    position: relative;
+    top: 2px;
+    left: 2px;
 }
