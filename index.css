@@ -4,23 +4,40 @@ body {
     font-family: 'Karla', sans-serif;
 }
 hr {
-    width: 100%;
+    /* max-width: 435px; */
     margin: 15px 0;
     border: none;
     border-top: 1px solid #2F3E53;
 }
 .password-card {
+    width: 550px;
+    height: 550px;
     box-sizing: border-box;
     background: #1F2937;
     border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
+    padding: 100px 40px;
+    margin: 20px auto;
     /* Prevent margins from collapsing */
     display: flex;
     flex-direction: column;
 }
 .green-accent {
     color: #4ADF86;
+}
+.password-box {
+    width: 210px;
+    height: 40px;
+    background: #273549;
+    border-radius: 5px;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password-box:hover {
+    border: 1px solid #55F991;
+    cursor: pointer;
 }
 #heading {
     font-family: 'Karla', sans-serif;
@@ -44,7 +61,7 @@ hr {
     padding: 10px 15px;
 }
 #password-btn:hover {
-    border: 2px solid #D5D4D8;
+    border: 1px solid #D5D4D8;
     cursor: pointer;
 }
 #password-btn:active {
@@ -52,4 +69,10 @@ hr {
     position: relative;
     top: 2px;
     left: 2px;
+}
+#password-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
 }
