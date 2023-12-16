@@ -1,0 +1,23 @@
+body {
+    background: #1C1C1C;
+    color: #FFFFFF;
+    font-family: 'Karla', sans-serif;
+}
+.password-card {
+    background: #1F2937;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+.green-accent {
+    color: #4ADF86;
+}
+#main-title {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+}
+#slogan {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #D5D4D8;
+}
