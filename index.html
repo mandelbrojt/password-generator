@@ -14,6 +14,20 @@
     <div class="password-card">
         <h1 id="heading">Generate a <br><span class="green-accent">random password</span></h1>
         <p id="supporting-text">Never use an insecure password again.</p>
+        <div id="user-inputs">
+            <div class="input-pair">
+                <label for="pwd-length">Password Length:</label>
+                <input type="number" id="pwd-length" min="8" max="20" value="15">
+            </div>
+            <div class="input-pair">
+                <label for="toggle-syms">Toggle Symbols:</label>
+                <input type="checkbox" id="toggle-syms">
+            </div>
+            <div class="input-pair">
+                <label for="toggle-nums">Toggle Numbers:</label>
+                <input type="checkbox" id="toggle-nums">
+            </div>
+        </div>
         <button id="password-btn">Generate passwords</button>
         <hr>
         <div id="password-content">
