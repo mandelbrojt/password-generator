@@ -8,9 +8,17 @@ let genPwdBtn = document.querySelector("#password-btn");
 let firstPwdEl = document.querySelector("#password-1");
 let secondPwdEl = document.querySelector("#password-2");
 
+// Retrieve user input values and states
+const pwdLength = document.querySelector("#pwd-length").value;
+const symbolsEnabled = document.querySelector("#toggle-syms").checked;
+const numbersEnabled = document.querySelector("#toggle-nums").checked;
+
+// Check input values
+
 // Define functions
 function generatePasswords() {
-    alert("You clicked the generator button");
+    let message = `Generating passwords with: ${pwdLength} and ${symbolsEnabled} and ${numbersEnabled}`;
+    alert(message);
 }
 
 function copyToClipboard(passwordId) {
