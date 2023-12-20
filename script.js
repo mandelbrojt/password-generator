@@ -42,6 +42,7 @@ function generatePasswords() {
     
     firstPwdEl.textContent = randomPassOne;
     secondPwdEl.textContent = randomPassTwo;
+    document.querySelector("#clipboard-status").textContent = ""
 }
 
 function copyToClipboard(passwordId) {
@@ -51,11 +52,11 @@ function copyToClipboard(passwordId) {
     navigator.clipboard.writeText(passwordText)
         .then(() => {
             console.log("Password copied to clipboard");
-            // alert("Password copied to clipboard");
+            document.querySelector("#clipboard-status").textContent = "Password copied to clipboard!";
         })
         .catch((error) => {
             console.error("Failed to copy password to clipboard:", error);
-            // alert("Failed to copy password to clipboard");
+            document.querySelector("#clipboard-status").textContent = "Failed to copy password to clipboard";
         });
 }
 

@@ -12,7 +12,6 @@ hr {
 .password-card {
     width: 420px;
     height: 420px;
-    /* box-sizing: border-box; */
     background: #1F2937;
     border-radius: 10px;
     padding: 100px 40px;
@@ -40,7 +39,9 @@ hr {
     align-items: center;
 }
 .password-box:hover {
-    border: 1px solid #55F991;
+    background: #10B981;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
     cursor: pointer;
 }
 .input-pair {
@@ -89,5 +90,10 @@ hr {
     justify-content: start;
     align-items: center;
     gap: 10px;
+    margin: 0;
+}
+#clipboard-status {
+    color: #4ADF86;
+    text-align: center;
     margin: 0;
 }
