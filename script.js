@@ -37,11 +37,11 @@ function copyToClipboard(passwordId) {
     navigator.clipboard.writeText(passwordText)
         .then(() => {
             console.log("Password copied to clipboard");
-            alert("Password copied to clipboard");
+            // alert("Password copied to clipboard");
         })
         .catch((error) => {
             console.error("Failed to copy password to clipboard:", error);
-            alert("Failed to copy password to clipboard");
+            // alert("Failed to copy password to clipboard");
         });
 }
 
