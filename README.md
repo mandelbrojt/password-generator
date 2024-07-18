@@ -1,2 +1,2 @@
-# password-generator
-Random password generator for your logins.
+# Random Password Generator App
+Click to visit the online app: [Password Generator](https://sunny-mermaid-85724c.netlify.app/)
